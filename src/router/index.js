@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Home from '@/components/Home'
 import About from '@/components/About'
+// import BootstrapVueModal from '@/components/bootstrapVueModal'
 
 Vue.use(Router)
 
@@ -23,5 +24,10 @@ export default new Router({
       name: 'About',
       component: About
     }
+    // {
+    //   path: '/Modal',
+    //   name: 'Modal',
+    //   component: BootstrapVueModal
+    // }
   ]
 })

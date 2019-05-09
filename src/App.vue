@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <!--<img src="./assets/logo.png">-->
     <p>
       <router-link to="/" class="btn btn-success">Index</router-link>
       <router-link to="/Home" class="btn btn-info">Home</router-link>
       <router-link to="/About" class="btn btn-primary">About</router-link>
+      <!--<router-link to="/Modal" class="btn btn-primary">Modal</router-link>-->
     </p>
     <router-view/>
   </div>
