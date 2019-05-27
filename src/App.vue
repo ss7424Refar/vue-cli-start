@@ -5,12 +5,8 @@
     <b-container>
       <p>
         <!--即为router-link-->
-        <b-button variant="primary" to="/">Index</b-button>
-        <b-button variant="danger" to="Home">Home</b-button>
-        <b-button variant="info" to="About">About</b-button>
-        <b-button variant="light" to="Modal">Modal</b-button>
-        <b-button variant="dark" to="Toasts">Toasts</b-button>
-        <b-button variant="success" to="Grid">Grid</b-button>
+        <!--<b-button variant="primary" to="/">Index</b-button>-->
+        <!--<b-button variant="danger" to="Home">Home</b-button>-->
       </p>
       <router-view></router-view>
     </b-container>

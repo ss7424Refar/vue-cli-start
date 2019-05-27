@@ -1,14 +1,21 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="dark" variant="info">
-      <b-navbar-brand href="#">NavBar</b-navbar-brand>
+      <b-navbar-brand href="#">
+        <img src="https://placekitten.com/g/30/30" class="d-inline-block align-top" alt="Kitten">
+        NavBar
+      </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="#">Link</b-nav-item>
-          <b-nav-item href="#" disabled>Disabled</b-nav-item>
+          <b-nav-item to="/">Index</b-nav-item>
+          <b-nav-item to="Home">Home</b-nav-item>
+          <b-button variant="info" to="About">About</b-button>
+          <b-button variant="light" to="Modal">Modal</b-button>
+          <b-button variant="dark" to="Toasts">Toasts</b-button>
+          <b-button variant="success" to="Grid">Grid</b-button>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
